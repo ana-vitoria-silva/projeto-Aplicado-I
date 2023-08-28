@@ -8,15 +8,15 @@
 
 ## Sumário
 
-- [📚 Contexto do Estudo](#📚-Contexto-do-Estudo)
-- [💻 Referências de Aquisição do Dataset](#💻-Referências-de-Aquisição-do-Dataset)
-  - [Sales Product Data](#Sales-Product-Data)
-  - [Amazon Consumer Behaviour Dataset](#Amazon-Consumer-Behaviour-Dataset)
-  - [Amazon Sales Dataset](#Amazon-Sales-Dataset)
-- [🌎 Descrição da Origem](#🌎-Descrição-da-Origem)
-- [📊 Descrição do Dataset](#📊-Descrição-do-Dataset)
-- [🤝 Colaboradores](#🤝-Colaboradores)
-- [📝 Licença](#📝-Licença)
+- [📚 Contexto do Estudo](#-contexto-do-estudo)
+- [💻 Fontes de Aquisição do Dataset](#-fontes-de-aquisição-do-dataset)
+  - [Dados de Produtos Vendidos](#dados-de-produtos-vendidos)
+  - [Conjunto de Dados sobre Comportamento do Consumidor na Amazon](#conjunto-de-dados-sobre-comportamento-do-consumidor-na-amazon)
+  - [Conjunto de Dados de Vendas na Amazon](#conjunto-de-dados-de-vendas-na-amazon)
+- [🌎 Origem da Descrição](#-origem-da-descrição)
+- [📊 Descrição do Conjunto de Dados](#-descrição-do-conjunto-de-dados)
+- [🤝 Colaboradores](#-colaboradores)
+- [📝 Licença](#-licença)
 
 
 # 📚 Contexto do Estudo
@@ -28,7 +28,7 @@
 
 >Neste projeto, utilizamos três conjuntos de dados como base para a realização das análises e experimentos. Abaixo estão as informações detalhadas sobre cada um dos datasets:
 
-### Sales Product Data
+### Sales Product Datagit
 - Link: [Sales Product Data](https://www.kaggle.com/datasets/knightbearr/sales-product-data)
 - Origem dos dados: Kaggle
 - Limitação de uso: CC0: Public Domain
