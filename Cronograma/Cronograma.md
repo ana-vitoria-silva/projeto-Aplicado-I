@@ -1,7 +1,5 @@
 # Cronograma do Projeto
 
-<img src="C:\Users\Wall Jobs\OneDrive\Documentos\GitHub\projeto-Aplicado-I\Imagens\calendario.jpg" alt="calendario">
-
 | Fase do Trabalho                                                  | Atividades a serem entregues                                                                                                                                                                                                                                                                                 | Data de entrega |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
 | Etapa 1 – Kick-off                                                | Definição da empresa e pesquisa dos dados                                                                                                                                                                                                                                                                    | 26/08/2023      |
