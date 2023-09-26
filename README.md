@@ -19,6 +19,7 @@
   - [Amazon Sales Dataset](#amazon-sales-dataset)
 - [🌎 Descrição da Origem](#-descrição-da-origem)
 - [📊 Descrição do Dataset](#-descrição-do-dataset)
+- [🔎 Solução Analítica](#-solução-analític)
 - [🤝 Colaboradores](#-colaboradores)
 - [📝 Licença](#-licença)
 
@@ -137,6 +138,120 @@ Portanto, alguns insights possíveis nesse dataset seriam:
 >- Quais produtos são vendidos juntos com mais frequência? 
 >- Qual produto vendeu mais? 
 >- Por que você acha que vendeu mais?
+
+## 🔎 Solução Analítica
+
+## Sumário
+
+- [Objetivo de estudo](#objetivo-de-estudo)
+- [Apresentação da empresa/área](#-apresentação-da-empresa/área)
+- [Problema de pesquisa](#problema-de-pesquisa)
+- [Apresentação dos Metadados e Análise Exploratória de Dados](#apresentação-dos-metadados-e-análise-exploratória-de-dados)
+
+## Objetivo de Estudo
+
+> - Para exemplificar o nosso trabalho, importante citar-se o livro Data Science para Negócios, de Tom Fawcell, o autor mostra o caso do Walmart no qual buscava de descobrir ˜fatos" que ajudaria o Walmart a se preparar para a chegada iminente do furacão Frances. Os cientistas estudaram os dados da empresa, e conseguiram identificar uma demanda incomum de produtos em épocas que se antecedem a eventos parecidos, a exemplo do aumento de morangos na venda sete vezes acima do normal, sendo assim, tomaram uma decisão orientada por dados. 
+> - Portanto, assim como no exemplo, este trabalho tem como objetivo identificar e entender o potencial de mercado dos produtos vendidos pela Amazon. 
+Onde o proprietário do dataset (Amazon consumer behavior dataser) que está no Kangle, é chamado de Swathi Menon, e as informações foram coletadas usando Google forms. E suas atribuições são: age;gender;Purchase_Frequency;Purchase_Categories;Personalized_Recommendation_Frequency;Browsing_Frequency;Product_Search_Method;Search_Result_Exploration;Customer_Reviews_Importance;Add_to_Cart_Browsing;Cart_Completion_Frequency;Cart_Abandonment_Factors;Saveforlater_Frequency;Review_Left;Review_Reliability;Review_Helpfulness;Personalized_Recommendation_Frequency;Recommendation_Helpfulness;Rating_Accuracy;Shopping_Satisfaction;Service_Appreciation;Improvement_Areas. E o outro dataset (Amazon Sales Dataset), pertence ao Karkavelraja, no entanto o mesmo deixa claro que conseguiu os dados através da própria amazon (​​This dataset is scraped from the official website of Amazon), com tais atributos: product_id;product_name;category;discounted_price;actual_price;discount_percentage;rating;rating_count;about_product;user_id;user_name;review_id;review_title;review_content;img_link;product_link.
+> - Diantes disso, buscaremos entender quais são os produtos mais vendidos, e analisar as classificações dos mesmos diante das opiniões dos clientes. Para isso algumas etapas serão tomadas, como entender primeiramente os datasets e o que temos para o estudo, sumariar suas características.
+
+
+## Apresentação da Empresa/Área
+
+> ● Nome da empresa:
+>
+> - Amazon Serviços de Varejo do Brasil - LTDA
+
+> ● Missão/visão/valores: 
+> 
+> - Missão: Atender os consumidores por meio de lojas online e físicas e focar na seleção, preço e conveniência
+> 
+> - Visão: Ser a empresa mais centrada no cliente da Terra, onde os clientes podem encontrar e descobrir tudo o que desejam comprar on-line e se esforçam para oferecer a seus clientes os preços mais baixos possíveis.
+> 
+> - Valores: A Amazon se orienta por 4 pilares: obsessão pelo cliente, paixão por invenções, compromisso com excelência operacional e visão de longo prazo.
+
+> ● Segmento de atuação:
+> 
+> - Varejo de diversos tipos de produtos, que será o nosso foco no trabalho, Serviços Web, Tecnologia, Pagamentos e Streaming.
+>
+> - ● Market Share: de acordo com um estudo feito pela empresa Conversion, o market share do e-commerce da Amazon no Brasil em 2023 é de 9%, ficando em segunda lugar no ranking, atrás somente do Mercado Livre, que detém 13,1% do market share. 
+
+> ● Número de colaboradores:
+>
+> - Aproximadamente 1,5M. 
+
+> ● Iniciativas na área de Data Science:
+> 
+> - É uma empresa orientada por dados (Data Driven)
+> 
+> - Construção de algoritmos orientados para a vendas online
+> 
+> - Analisa performance de produtos e comportamento de usuários nos canais digitais
+> 
+> - Utilização de grandes fazendas de computadores, contendo clusters e tecnologia de Big Data para garantir o crescimento do negócio.
+> 
+> - Cursos e certificações relacionados a dados e tecnologias 
+
+> ● Trabalhos em destaque:
+>
+> - Temos um problema que pode decomposto em problemas menores? Sim, pois existem várias perguntas que devem ser respondidas para obtermos uma solução final. E cada uma delas deve ser analisada individualmente antes de uma análise geral, onde iremos propor as ações necessárias. 
+> - Temos padrões que podem ser observáveis? Sim, podemos identificar o segmento dos produtos e verificar quais mais aparecem e têm melhor performance, assim podemos identificar outros produtos do mesmo segmento que os consumidores poderiam ter interesse em comprar também. 
+> - Podemos abstrair (ignorar) detalhes de uma generalização para buscar uma solução?
+> - Podemos abstrair dados que consideramos irrelevantes para a nossa análise e focar somente no que nos auxiliará na resolução do problema.  
+> - Podemos escrever algum algoritmo para alcançar os resultados? Sim, podemos utilizar algoritmos para chegar nos resultados desejados. A utilização do algoritmo é essencial para conseguirmos analisar a quantidade de dados que obtivemos.
+
+## Problema de Pesquisa
+
+> ● Objetivo:
+> 
+> - Melhorar a performance de vendas do e-commerce. 
+> 
+> - Quais são os produtos que performam melhor no e-commerce? 
+> 
+> - Quais produtos que trazem maior receita no e-commerce? 
+> 
+> - Quais produtos vem ganhando atenção do público no mercado e que podemos trazer para o e-commerce? 
+>
+> - Quais produtos teremos maior foco nas promoções para obtermos melhores resultados?
+
+> ● Utilize uma abordagem de Pensamento Computacional: 
+> 
+> - Temos um problema que pode decomposto em problemas menores? Sim, pois existem várias perguntas que devem ser respondidas para obtermos uma solução final. E cada uma delas deve ser analisada individualmente antes de uma análise geral, onde iremos propor as ações necessárias. 
+>
+> - Temos padrões que podem ser observáveis? Sim, podemos identificar o segmento dos produtos e verificar quais mais aparecem e têm melhor performance, assim podemos identificar outros produtos do mesmo segmento que os consumidores poderiam ter interesse em comprar também. 
+
+## Estrutura do Metadados: 
+
+> ● Objetivo: caracterizar e registrar os datasets que teremos para o estudo.
+ 
+> ● Sales Product Data: https://www.kaggle.com/datasets/knightbearr/sales-product-data
+>
+> ● Tipo de arquivo: csv
+> 
+> ● Origem dos dados: abertos
+> 
+> ● Validade: dados de janeiro a dezembro de 2019
+
+> ● Amazon consumer Behaviour Dataset: https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset
+>
+> ● Tipo de arquivo: csv
+>
+> ● Origem dos dados: abertos
+>
+> ● Último Update: Julho de 2023
+
+> ● Amazon Sales Dataset: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+>
+> ● Tipo de arquivo: csv
+>
+> ● Origem dos dados: abertos
+>
+> ● Licença: CC BY-NC-SA 4.0]
+>
+> ● Último Update: Janeiro de 2023
+
+
+## Apresentação dos Metadados e Análise Exploratória de Dados
 
 
 ## 🤝 Colaboradores
