@@ -20,6 +20,7 @@
 - [🌎 Descrição da Origem](#-descrição-da-origem)
 - [📊 Descrição do Dataset](#-descrição-do-dataset)
 - [🔎 Solução Analítica](#-solução-analític)
+- [📈 Apresentação dos Metadados e Análise Exploratória de Dados](#-Apresentação-dos-Metadados-e-Análise-Exploratória-de-Dados)
 - [🤝 Colaboradores](#-colaboradores)
 - [📝 Licença](#-licença)
 
@@ -32,13 +33,13 @@
 - [Imagens Utilizadas](Imagens)
 - [Cronograma](Cronograma)
 
-# 📚 Contexto do Estudo
+## 📚 Contexto do Estudo
 
 > Esse trabalho foi desenvolvido com a finalidade de avaliar quais são os produtos que apresentam melhor desempenho no e-commerce da Amazon e identificar, no mercado em geral, produtos com potencial significativo que podem ser grandes oportunidades para gerar mais receita para a empresa. Outra análise realizada é em relação aos hábitos de consumo dos clientes da Amazon, o que é de grande valia, pois essa análise influencia no processo de determinar quais produtos são pertinentes para serem incluídos no catálogo da empresa.  
 >
 > Nesse contexto, utilizamos datasets públicos que oferecem dados de grande valia para a análise realizada. Com esse estudo a empresa pode incluir produtos que vão gerar mais receita, fazer ofertas mais assertivas para sua base de clientes e, consequentemente, gerar mais vendas. 
 
-# 💻 Referências de Aquisição do Dataset
+## 💻 Referências de Aquisição do Dataset
 
 >Neste projeto, utilizamos três conjuntos de dados como base para a realização das análises e experimentos. Abaixo estão as informações detalhadas sobre cada um dos datasets:
 
@@ -251,7 +252,165 @@ Onde o proprietário do dataset (Amazon consumer behavior dataser) que está no 
 > ● Último Update: Janeiro de 2023
 
 
-## Apresentação dos Metadados e Análise Exploratória de Dados
+## 📈 Apresentação dos Metadados e Análise Exploratória de Dados
+
+> <img src="Imagens/1.png" alt="Exemplo imagem">
+>
+> Age = valor min -15 (72 Pessoas); valor max - 60 (15 Pessoas); maior concentração 22 - 28 (252 Pessoas) anos.
+> 
+> - Gender
+>
+> Feminino 58% (348)
+> 
+> Masculino 24% (144)
+> 
+> Prefere não dizer 18% (108)
+>
+> - Purchase Frequency
+>
+> Poucas vezes no mês 34% (203)
+> 
+> Menos que um mês 21% (126)
+> 
+> Outros (uma vez na semana, múltiplas vezes) 46% (275)
+> 
+> - Purchase Categories
+>
+> Beleza e cuidados pessoais18% (108)
+> 
+> Vestuário e Moda 18% (108)
+> 
+> Outros (Casa e cozinha, comida) 65% (390)
+>
+> - Personalized Recommendation Frequency
+> 
+> Não 42% (256)
+> 
+> As vezes 38% (232)
+> 
+> Outros 20% (122)
+> 
+> - Browsing Frequency
+> 
+> Poucas vezes na semana 41% (242)
+> 
+> Poucas vezes no mês 33% (195)
+> 
+> Outros 26% (154)
+> 
+> - Product Search Method
+>
+> Categorias 37% (226)
+> 
+> Palavras - chaves 36% (220)
+> 
+> Outros 27% (165)
+>
+> - Search Result Exploration
+> 
+> Várias páginas 73%
+> 
+> Primeira Página 27%
+> 
+> - Customer Reviews Importance
+> 
+> <img src="Imagens/2.png" alt="Exemplo imagem">
+>
+> valor min -1(169 Pessoas); valor max - 5(216 Pessoas); maior concentração 3(38 Pessoas). 
+> 
+> - Add to Cart Browsing
+> 
+> Talvez 41% (246)
+> 
+> Sim 36% (216)
+> 
+> Outros 23% (138)
+> 
+> - Cart Completion Frequency
+> 
+> Sometimes50% (304)
+> 
+> Frequentemente 26% (158)
+> 
+> Other (140) 23%
+> 
+> - Cart Abandonment Factors
+> 
+> Encontrou preço melhor em outro lugar 42% (247)
+> 
+> Mudou de pensamento ou não precisa mais do item 40% (235)
+> 
+> Outros (106)18%
+> 
+> - Save for Later Frequency
+> 
+> Algumas vezes 42% (255)
+> 
+> Frequentemente 26% (158)
+> 
+> Outros (195)32%
+> 
+> - Review Left
+> 
+> <img src="Imagens/3.png" alt="Exemplo imagem">
+>
+> - Review Reliability
+> 
+> Moderadamente 33% (200)
+> 
+> Ocasionalmente 32% (195)
+> 
+> Outros (213)35%
+> 
+> - Review Helpfulness
+> 
+> Sim 39% (234)
+> 
+> As vezes38% (228)
+> 
+> Outros (138)23%
+> 
+> - Personalized Recommendation Frequency
+>
+> <img src="Imagens/4.png" alt="Exemplo imagem">
+>
+> valor min -1(80 Pessoas); valor max - 5(35 Pessoas); maior concentração 3 (240 Pessoas). 
+> 
+> - Recommendation Helpfulness
+> 
+> Às vezes 45% (272)
+> 
+> Não 29% (175)
+> 
+> Outros 26% (157)
+> 
+> - Rating Accuracy
+> 
+> <img src="Imagens/5.png" alt="Exemplo imagem">
+> 
+> valor min -1 (58 pessoas); valor max - 5 (288 Pessoas); maior concentração 3 (21 Pessoas). 
+> 
+> - Shopping Satisfaction
+> 
+> <img src="Imagens/6.png" alt="Exemplo imagem">
+>
+> valor min -1 (115 pessoas); valor max - 5 (17 pessoas); maior concentração 3(209 pessoas). 
+> 
+> - Service Appreciation
+> 
+> Recomendações do produtos 31% (227)
+> 
+> Preços competitivos 30% (220)
+> 
+> Outros (235)39%
+> 
+> - Improvement Areas
+> 
+> Capacidade de resposta no atendimento ao cliente 36% (215)
+> 
+> Qualidade e precisão do produt 26% (155)
+> 
+> Outros (226)38%
 
 
 ## 🤝 Colaboradores
@@ -281,7 +440,7 @@ Pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="Imagens/iasmim.jpg" width="100px;" alt="Foto da Ana Vitória Silva"/><br>
         <sub>
           <b>Iasmin Silva
 
@@ -291,7 +450,7 @@ Pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="Imagens/maressa.jpg" width="100px;" alt="Foto da Ana Vitória Silva"/><br>
         <sub>
           <b>Maressa Bonassoli
 
