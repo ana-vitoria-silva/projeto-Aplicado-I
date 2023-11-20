@@ -1,4 +1,4 @@
-# Projeto Aplicado I
+![image](https://github.com/ana-vitoria-silva/projeto-Aplicado-I/assets/122746460/dc40bc73-65be-4f8e-a56d-0c841fbe6fce)# Projeto Aplicado I
 
 ![Created Badge](https://badges.pufler.dev/created/ana-vitoria-silva/projeto-Aplicado-I?style=flat)
 ![Updated Badge](https://badges.pufler.dev/updated/ana-vitoria-silva/projeto-Aplicado-I?style=flat)
@@ -21,6 +21,7 @@
 - [📊 Descrição do Dataset](#-descrição-do-dataset)
 - [🔎 Solução Analítica](#-solução-analític)
 - [📈 Apresentação dos Metadados e Análise Exploratória de Dados](#-Apresentação-dos-Metadados-e-Análise-Exploratória-de-Dados)
+- [📽 Vídeo de Apresentação do Projeto (Youtube)](#-Vídeo-de-Apresentação-do-Projeto-(Youtube)).
 - [🤝 Colaboradores](#-colaboradores)
 - [📝 Licença](#-licença)
 
@@ -412,6 +413,9 @@ Onde o proprietário do dataset (Amazon consumer behavior dataser) que está no 
 > 
 > Outros (226)38%
 
+## 📽 Vídeo de Apresentação do Projeto (Youtube)
+
+> - Link do Video: https://youtu.be/uYU2W48eIOw.
 
 ## 🤝 Colaboradores
 
